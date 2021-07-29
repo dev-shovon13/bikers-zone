@@ -12,6 +12,15 @@ body{
 p{
     color: #E0E0E0;
 }
+.theme-color{
+    color: #E76F51;
+}
+hr{
+    border: 1px solid #f76c49;
+    width: 60px;
+}
+
+/* buttons */
 .my-btn {
     background: #E76F51;
     outline: none;
@@ -29,13 +38,7 @@ p{
     background: #eb5f3c;
     color: white;
 }
-.theme-color{
-    color: #E76F51;
-}
-hr{
-    border: 1px solid #f76c49;
-    width: 60px;
-}
+
 /* header section  */
 header{
    background: #264653;
@@ -43,8 +46,6 @@ header{
 .bw-bike-img{
     filter: grayscale(100%);
 }
-
-/* body section  */
 
 /* review section  */
 .review-img{
@@ -55,9 +56,15 @@ header{
     color: #E77C40;
 }
 
+/* gears section  */
+.add-space{
+    letter-spacing: 10px;
+}
+.gear-img{
+    height: 220px;
+    max-width: 350px;
+}
 /* footer section  */
 .footer-right img{
     width: 150px;
-    /* border: 1px solid rgb(235, 226, 226);
-    border-radius: 5px; */
 }

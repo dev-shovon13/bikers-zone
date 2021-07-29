@@ -39,6 +39,47 @@
                     <button class="my-btn text-white border-0 px-3 py-2 ms-5 rounded">Login</button>
                 </div>
             </nav>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-black">
+                            <div class="container-fluid">
+                                <div class="d-flex flex-column">
+                                    <div class="">
+                                        <img src="images/purchase.jpg" alt="" class="w-100 rounded">
+                                    </div>
+                                    <div class="text-dark">
+                                        <h5 class="mt-4 fs-6 text-danger fw-bold">View Personalized Offers on Honda CBR
+                                            300R</h5>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control mb-4" id="exampleFormControlInput1"
+                                                placeholder="Please Enter Your Email">
+                                        </div>
+                                        <small class="text-primary">We will Let You Know the Offer</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Buy Later</button>
+                            <button type="button" class="btn btn-primary">Check Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+
+
+
             <div class="row justify-content-between align-items-center py-5">
                 <div class="bike-info mb-sm-5 col-12 col-md-6">
                     <p class="w-75 fw-light">Computer-controlled digital transistorized with electronic advance
@@ -50,7 +91,8 @@
                         With the
                         All CBR motorbikes have
                         inline engines. Less sporting/general models make up CB series.</p>
-                    <button type="button" class="my-btn text-white border-0 px-5 py-2 rounded">Purchase</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        class="my-btn text-white border-0 px-5 py-2 rounded">Purchase</button>
                 </div>
                 <div class="bike-photo col-12 col-md-6">
                     <img src="images/bikes/header-bike.png" alt="" class="img-fluid mt-4 mt-lg-0 ">
@@ -230,7 +272,7 @@
 
         <section class="container my-5 pt-5 px-lg-5">
             <div class="text-center">
-                <h1 class=" text-black fw-bold my-5">Happy <span class="theme-color">Clients says</span></h1>
+                <h1 class=" text-black fw-bold my-5">Frequently Asked <span class="theme-color">Questions</span></h1>
             </div>
             <div class="row align-items-center g-5">
                 <div class="col-12 col-lg-6">
@@ -342,6 +384,135 @@
             </div>
         </section>
         <!-- frequently asked questions section end  -->
+
+        <!-- store section start  -->
+        <section class="container my-5 pt-5">
+
+            <h1 class="w-75 mx-auto text-black fw-bold my-5 d-md-flex align-items-center"><span
+                    class="d-inline-block border-end text-end pe-4">IMPROVE
+                    GENERAL
+                    <br>RIDEABILITY</span> <span class="theme-color fs-5 ps-4 fw-light add-space">PERFORMANCE</span>
+            </h1>
+
+
+            <!-- cards start -->
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+                <!-- card 1 -->
+                <div class="col">
+                    <div class="border border-1 rounded-3 shadow-sm text-center">
+                        <div class="py-3 bg-light">
+                            <img src="images/store/gear-1.png" class="img-fluid w-75 p-4 gear-img" alt="...">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small>28 Reviews</small>
+                                <div class="py-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">EXHAUST</h5>
+                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="col">
+                    <div class="border border-1 rounded-3 shadow-sm text-center">
+                        <div class="py-3 bg-light">
+                            <img src="images/store/gear-2.png" class="img-fluid p-4 w-75 gear-img" alt="...">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small>42 Reviews</small>
+                                <div class="py-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">GLOVES</h5>
+                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="col">
+                    <div class="border border-1 rounded-3 shadow-sm text-center">
+                        <div class="py-3 bg-light">
+                            <img src="images/store/gear-3.png" class="img-fluid p-4 w-75 gear-img" alt="...">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small>14 Reviews</small>
+                                <div class="py-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">DISK</h5>
+                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- card 4 -->
+                <div class="col">
+                    <div class="border border-1 rounded-3 shadow-sm text-center">
+                        <div class="py-3 bg-light">
+                            <img src="images/store/gear-4.png" class="img-fluid p-4 w-75 gear-img" alt="...">
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small>55 Reviews</small>
+                                <div class="py-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">HELMET</h5>
+                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+            <!-- cards end -->
+        </section>
+        <!-- store section end  -->
 
     </main>
     <!-- main section end  -->
