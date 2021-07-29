@@ -1,0 +1,63 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* utilities */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: #E0E0E0;
+}
+.my-btn {
+    background: #E76F51;
+    outline: none;
+}
+.my-btn:hover{
+    background: #eb5f3c;
+}
+.only-outline-btn{
+    background: none;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    transition: all 0.5s;
+}
+.only-outline-btn:hover{
+    background: #eb5f3c;
+    color: white;
+}
+.theme-color{
+    color: #E76F51;
+}
+hr{
+    border: 1px solid #f76c49;
+    width: 60px;
+}
+/* header section  */
+header{
+   background: #264653;
+}
+.bw-bike-img{
+    filter: grayscale(100%);
+}
+
+/* body section  */
+
+/* review section  */
+.review-img{
+    height: 150px;
+    width: 150px;
+}
+.fa-star{
+    color: #E77C40;
+}
+
+/* footer section  */
+.footer-right img{
+    width: 150px;
+    /* border: 1px solid rgb(235, 226, 226);
+    border-radius: 5px; */
+}
