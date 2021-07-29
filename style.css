@@ -55,15 +55,25 @@ header{
 .fa-star{
     color: #E77C40;
 }
-
+.star-font{
+    font-size: 11px;
+}
 /* gears section  */
 .add-space{
     letter-spacing: 10px;
 }
-.gear-img{
-    height: 220px;
-    max-width: 350px;
+
+/* about section  */
+.about-img{
+    max-height: 300px;
 }
+.hover-img{
+    transition: all 1s;
+}
+.hover-img:hover{
+    transform: scale(1.05);
+}
+
 /* footer section  */
 .footer-right img{
     width: 150px;

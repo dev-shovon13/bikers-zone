@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- local styles  -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,6 +27,8 @@
     <!-- header section start -->
     <header class="text-white">
         <section class="container">
+
+            <!-- navbar start  -->
             <nav class="d-flex align-items-center justify-content-between justify-content-md-end">
                 <i class="fas fa-bars d-md-none display-5"></i>
                 <div class="d-flex align-items-center justify-content-end  pt-4 pb-3">
@@ -40,7 +44,7 @@
                 </div>
             </nav>
 
-            <!-- Modal -->
+            <!-- Modal start -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -52,7 +56,7 @@
                         <div class="modal-body text-black">
                             <div class="container-fluid">
                                 <div class="d-flex flex-column">
-                                    <div class="">
+                                    <div class="animate__animated animate__bounce">
                                         <img src="images/purchase.jpg" alt="" class="w-100 rounded">
                                     </div>
                                     <div class="text-dark">
@@ -75,11 +79,11 @@
                     </div>
                 </div>
             </div>
+            <!-- modal end-->
 
-            <!-- modal -->
+            <!-- navbar end  -->
 
-
-
+            <!-- header element start-->
             <div class="row justify-content-between align-items-center py-5">
                 <div class="bike-info mb-sm-5 col-12 col-md-6">
                     <p class="w-75 fw-light">Computer-controlled digital transistorized with electronic advance
@@ -95,9 +99,12 @@
                         class="my-btn text-white border-0 px-5 py-2 rounded">Purchase</button>
                 </div>
                 <div class="bike-photo col-12 col-md-6">
-                    <img src="images/bikes/header-bike.png" alt="" class="img-fluid mt-4 mt-lg-0 ">
+                    <img src="images/bikes/header-bike.png" alt=""
+                        class="img-fluid mt-4 mt-lg-0 animate__animated animate__backInRight">
                 </div>
             </div>
+            <!-- header element end-->
+
         </section>
     </header>
     <!-- header section end -->
@@ -113,13 +120,13 @@
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                 <div class="col">
-                    <img src="images/bikes/feature-bike.png" alt="" class="img-fluid bw-bike-img"></img>
+                    <img src="images/bikes/feature-bike.png" alt="" class="img-fluid bw-bike-img hover-img"></img>
                 </div>
                 <div class="col">
-                    <img src="images/bikes/feature-bike.png" alt="" class="img-fluid feature-bike-img"></img>
+                    <img src="images/bikes/feature-bike.png" alt="" class="img-fluid hover-img"></img>
                 </div>
                 <div class="col">
-                    <img src="images/bikes/feature-bike.png" alt="" class="img-fluid bw-bike-img"></img>
+                    <img src="images/bikes/feature-bike.png" alt="" class="img-fluid bw-bike-img hover-img"></img>
                 </div>
             </div>
 
@@ -138,7 +145,7 @@
                 <!-- card 1 -->
                 <div class="col">
                     <div class="card h-100 p-3 rounded-3 shadow-sm">
-                        <img src="images/bikes/bike-1.png" class="card-img-top" alt="...">
+                        <img src="images/bikes/bike-1.png" class="card-img-top hover-img" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ducati XDIAVEL S-73</h5>
                             <p class="card-text text-secondary">Ducati renews the XDiavel range by introducing two new
@@ -154,7 +161,7 @@
                 <!-- card 2 -->
                 <div class="col">
                     <div class="card h-100 p-3 rounded-3 shadow-sm">
-                        <img src="images/bikes/bike-2.png" class="card-img-top" alt="...">
+                        <img src="images/bikes/bike-2.png" class="card-img-top hover-img" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">DUCATI Diavel 1260</h5>
                             <p class="card-text text-secondary">The Diavel 1260 combines the performance of a maxi-naked
@@ -169,7 +176,7 @@
                 <!-- card 3 -->
                 <div class="col">
                     <div class="card h-100 p-3 rounded-3 shadow-sm">
-                        <img src="images/bikes/bike-3.png" class="card-img-top" alt="...">
+                        <img src="images/bikes/bike-3.png" class="card-img-top hover-img" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ducati Hypermotard 950</h5>
                             <p class="card-text text-secondary">Ducati has updated the Hypermotard 950 family to Euro 5
@@ -180,13 +187,11 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
             <!-- cards end -->
+
         </section>
-        <!-- latest news section  -->
+        <!-- latest news section end -->
 
         <!-- happy client section start  -->
         <section class="container my-5 pt-5 px-lg-5">
@@ -262,14 +267,13 @@
                         <div class="">Businessman</div>
                     </div>
                 </div>
-
             </div>
             <!-- cards end -->
+
         </section>
         <!-- happy client section end  -->
 
         <!-- frequently asked questions section start  -->
-
         <section class="container my-5 pt-5 px-lg-5">
             <div class="text-center">
                 <h1 class=" text-black fw-bold my-5">Frequently Asked <span class="theme-color">Questions</span></h1>
@@ -279,7 +283,7 @@
                     <img src="images/QnA.png" alt="" class="img-fluid">
                 </div>
 
-                <!-- accordion section  -->
+                <!-- accordion section start -->
                 <div class="col-12 col-lg-6">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
 
@@ -381,19 +385,18 @@
                         </div>
                     </div>
                 </div>
+                <!-- accordion section end -->
             </div>
         </section>
         <!-- frequently asked questions section end  -->
 
         <!-- store section start  -->
         <section class="container my-5 pt-5">
-
             <h1 class="w-75 mx-auto text-black fw-bold my-5 d-md-flex align-items-center"><span
                     class="d-inline-block border-end text-end pe-4">IMPROVE
                     GENERAL
                     <br>RIDEABILITY</span> <span class="theme-color fs-5 ps-4 fw-light add-space">PERFORMANCE</span>
             </h1>
-
 
             <!-- cards start -->
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
@@ -402,23 +405,23 @@
                 <div class="col">
                     <div class="border border-1 rounded-3 shadow-sm text-center">
                         <div class="py-3 bg-light">
-                            <img src="images/store/gear-1.png" class="img-fluid w-75 p-4 gear-img" alt="...">
+                            <img src="images/store/gear-1.png" class="img-fluid p-4 gear-img hover-img" alt="...">
                         </div>
                         <div class="p-3">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-sm-flex justify-content-between align-items-center">
                                 <small>28 Reviews</small>
                                 <div class="py-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="far fa-star star-font"></i>
+                                    <i class="far fa-star star-font"></i>
                                 </div>
                             </div>
-
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">EXHAUST</h5>
-                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                            <div class="d-sm-flex justify-content-between align-items-center">
+                                <h5 class="fs-6 py-2 fw-bold text-primary text-decoration-underline">EXHAUST</h5>
+                                <h5 class="fs-6 "><span
+                                        class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
                                 </h5>
                             </div>
                         </div>
@@ -429,23 +432,23 @@
                 <div class="col">
                     <div class="border border-1 rounded-3 shadow-sm text-center">
                         <div class="py-3 bg-light">
-                            <img src="images/store/gear-2.png" class="img-fluid p-4 w-75 gear-img" alt="...">
+                            <img src="images/store/gear-2.png" class="img-fluid p-4 gear-img hover-img" alt="...">
                         </div>
                         <div class="p-3">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-sm-flex justify-content-between align-items-center">
                                 <small>42 Reviews</small>
                                 <div class="py-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="far fa-star star-font"></i>
                                 </div>
                             </div>
-
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">GLOVES</h5>
-                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                            <div class="d-sm-flex justify-content-between align-items-center">
+                                <h5 class="fs-6 py-2 fw-bold text-primary text-decoration-underline">GLOVES</h5>
+                                <h5 class="fs-6 "><span
+                                        class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
                                 </h5>
                             </div>
                         </div>
@@ -456,63 +459,99 @@
                 <div class="col">
                     <div class="border border-1 rounded-3 shadow-sm text-center">
                         <div class="py-3 bg-light">
-                            <img src="images/store/gear-3.png" class="img-fluid p-4 w-75 gear-img" alt="...">
+                            <img src="images/store/gear-3.png" class="img-fluid p-4 gear-img hover-img" alt="...">
                         </div>
                         <div class="p-3">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-sm-flex justify-content-between align-items-center">
                                 <small>14 Reviews</small>
                                 <div class="py-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="far fa-star star-font"></i>
+                                    <i class="far fa-star star-font"></i>
                                 </div>
                             </div>
-
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">DISK</h5>
-                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                            <div class="d-sm-flex justify-content-between align-items-center">
+                                <h5 class="fs-6 py-2 fw-bold text-primary text-decoration-underline">DISK</h5>
+                                <h5 class="fs-6 "><span
+                                        class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
                                 </h5>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
                 <!-- card 4 -->
                 <div class="col">
                     <div class="border border-1 rounded-3 shadow-sm text-center">
                         <div class="py-3 bg-light">
-                            <img src="images/store/gear-4.png" class="img-fluid p-4 w-75 gear-img" alt="...">
+                            <img src="images/store/gear-4.png" class="img-fluid p-4 gear-img hover-img" alt="...">
                         </div>
                         <div class="p-3">
-                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-sm-flex justify-content-between align-items-center">
                                 <small>55 Reviews</small>
                                 <div class="py-3">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
+                                    <i class="fas fa-star star-font"></i>
                                 </div>
                             </div>
-
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h5 class="py-2 fw-bold text-primary text-decoration-underline">HELMET</h5>
-                                <h5><span class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                            <div class="d-sm-flex justify-content-between align-items-center">
+                                <h5 class="fs-6 py-2 fw-bold text-primary text-decoration-underline">HELMET</h5>
+                                <h5 class="fs-6 "><span
+                                        class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
                                 </h5>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-            </div>
             </div>
             <!-- cards end -->
         </section>
         <!-- store section end  -->
+
+        <!-- about section start -->
+        <section class="container my-5 pt-5">
+            <div class="text-center">
+                <h1 class=" text-black fw-bold my-5"><span class="theme-color">WHAT</span> WE DO ?</h1>
+            </div>
+
+            <!-- card 1 -->
+            <div class="row text-center g-4">
+                <div class="col-12 col-lg-6">
+                    <img src="images/about/about-1.jpg" alt="" class="img-fluid about-img hover-img mb-4 rounded">
+                    <h1 class="theme-color fs-5 text-lg-start">REASONABLY PRICED AND CONVENIENTLY LOCATED</h1>
+                    <h6 class="fw-light text-lg-start">We have training courses each with specific skill sets as well as
+                        multi-day immersion camps and
+                        tours.</h6>
+                </div>
+
+                <!-- card 2 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img src="images/about/about-2.jpg" alt="" class="img-fluid about-img hover-img mb-4 rounded">
+                    <h1 class="theme-color fs-5 text-lg-start">MOTORCYCLE SAFETY</h1>
+                    <h6 class="fw-light text-lg-start">To make motorcycling safer and more enjoyable by ensuring access
+                        to lifelong quality education
+                        and training for current and prospective riders.</h6>
+                </div>
+
+                <!-- card 3 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img src="images/about/about-3.jpg" alt="" class="img-fluid about-img hover-img mb-4 rounded">
+                    <h1 class="theme-color fs-5 text-lg-start">OUR VISION</h1>
+                    <h6 class="fw-light text-lg-start">The Motorcycle Training is an internationally recognized
+                        not-for-profit
+                        foundation, supported by
+                        motorcycle manufacturers.</h6>
+                </div>
+            </div>
+            <!-- cards end -->
+
+        </section>
+        <!-- about section end -->
 
     </main>
     <!-- main section end  -->
@@ -526,7 +565,7 @@
                         <span class="me-4">Download Now</span>
                         <span class="me-4">License</span>
                     </div>
-                    <div class="d-flex my-3 fw-light">
+                    <div class="d-sm-flex my-3 fw-light">
                         <span class="me-4">About</span>
                         <span class="me-4">Features</span>
                         <span class="me-4">Pricing</span>
