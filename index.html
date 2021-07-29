@@ -29,18 +29,18 @@
         <section class="container">
 
             <!-- navbar start  -->
-            <nav class="d-flex align-items-center justify-content-between justify-content-md-end">
+            <nav class="d-flex align-items-center justify-content-between justify-content-md-end mb-4">
                 <i class="fas fa-bars d-md-none display-5"></i>
                 <div class="d-flex align-items-center justify-content-end  pt-4 pb-3">
                     <div class="d-none d-md-flex">
                         <div class=" menu-iitems  align-items-center">
-                            <a href="" class="text-decoration-none text-white me-5">Home</a>
-                            <a href="" class="text-decoration-none text-white me-5">Shop</a>
-                            <a href="" class="text-decoration-none text-white me-5">News</a>
-                            <a href="" class="text-decoration-none text-white me-5">Contact</a>
+                            <a href="#home" class="text-decoration-none text-white me-5">Home</a>
+                            <a href="#shop" class="text-decoration-none text-white me-5">Shop</a>
+                            <a href="#news" class="text-decoration-none text-white me-5">News</a>
+                            <a href="#about" class="text-decoration-none text-white me-5">Contact</a>
                         </div>
                     </div>
-                    <button class="my-btn text-white border-0 px-3 py-2 ms-5 rounded">Login</button>
+                    <a href=""><button class="my-btn text-white border-0 px-3 py-2 ms-5 rounded">Login</button></a>
                 </div>
             </nav>
 
@@ -112,13 +112,13 @@
     <!-- main section start  -->
     <main>
         <!-- featured bike section start -->
-        <section class="container my-5 pt-4">
+        <section id="home" class="container my-5 pt-5 pb-5">
             <div class="text-center">
                 <h1 class=" text-black fw-bold">Fetured Bikes 2021</h1>
                 <span class="theme-color">Best bike collection</span>
                 <hr class="theme-color mx-auto">
             </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 mt-5">
                 <div class="col">
                     <img src="images/bikes/feature-bike.png" alt="" class="img-fluid bw-bike-img hover-img"></img>
                 </div>
@@ -134,7 +134,7 @@
         <!-- featured bike section end -->
 
         <!-- latest news section  -->
-        <section class="container my-5 pt-5">
+        <section id="news" class="container my-5 pt-1">
             <div class="text-center">
                 <h1 class=" text-black fw-bold my-5">Latest News</h1>
             </div>
@@ -274,7 +274,7 @@
         <!-- happy client section end  -->
 
         <!-- frequently asked questions section start  -->
-        <section class="container my-5 pt-5 px-lg-5">
+        <section class="container my-5 py-5 px-lg-5">
             <div class="text-center">
                 <h1 class=" text-black fw-bold my-5">Frequently Asked <span class="theme-color">Questions</span></h1>
             </div>
@@ -391,7 +391,7 @@
         <!-- frequently asked questions section end  -->
 
         <!-- store section start  -->
-        <section class="container my-5 pt-5">
+        <section id="shop" class="container my-5">
             <h1 class="w-75 mx-auto text-black fw-bold my-5 d-md-flex align-items-center"><span
                     class="d-inline-block border-end text-end pe-4">IMPROVE
                     GENERAL
@@ -448,7 +448,7 @@
                             <div class="d-sm-flex justify-content-between align-items-center">
                                 <h5 class="fs-6 py-2 fw-bold text-primary text-decoration-underline">GLOVES</h5>
                                 <h5 class="fs-6 "><span
-                                        class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                                        class="text-danger text-decoration-line-through me-3 fw-light">$45</span>$30
                                 </h5>
                             </div>
                         </div>
@@ -475,7 +475,7 @@
                             <div class="d-sm-flex justify-content-between align-items-center">
                                 <h5 class="fs-6 py-2 fw-bold text-primary text-decoration-underline">DISK</h5>
                                 <h5 class="fs-6 "><span
-                                        class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                                        class="text-danger text-decoration-line-through me-3 fw-light">$70</span>$55
                                 </h5>
                             </div>
                         </div>
@@ -502,7 +502,7 @@
                             <div class="d-sm-flex justify-content-between align-items-center">
                                 <h5 class="fs-6 py-2 fw-bold text-primary text-decoration-underline">HELMET</h5>
                                 <h5 class="fs-6 "><span
-                                        class="text-danger text-decoration-line-through me-3 fw-light">$50</span>$40
+                                        class="text-danger text-decoration-line-through me-3 fw-light">$250</span>$230
                                 </h5>
                             </div>
                         </div>
@@ -514,7 +514,7 @@
         <!-- store section end  -->
 
         <!-- about section start -->
-        <section class="container my-5 pt-5">
+        <section id="about" class="container my-5 pb-5 pt-1">
             <div class="text-center">
                 <h1 class=" text-black fw-bold my-5"><span class="theme-color">WHAT</span> WE DO ?</h1>
             </div>
@@ -523,8 +523,8 @@
             <div class="row text-center g-4">
                 <div class="col-12 col-lg-6">
                     <img src="images/about/about-1.jpg" alt="" class="img-fluid about-img hover-img mb-4 rounded">
-                    <h1 class="theme-color fs-5 text-lg-start">REASONABLY PRICED AND CONVENIENTLY LOCATED</h1>
-                    <h6 class="fw-light text-lg-start">We have training courses each with specific skill sets as well as
+                    <h1 class="theme-color fs-5">REASONABLY PRICED AND CONVENIENTLY LOCATED</h1>
+                    <h6 class="fw-light w-75 mx-auto">We have training courses each with specific skill sets as well as
                         multi-day immersion camps and
                         tours.</h6>
                 </div>
@@ -532,8 +532,8 @@
                 <!-- card 2 -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <img src="images/about/about-2.jpg" alt="" class="img-fluid about-img hover-img mb-4 rounded">
-                    <h1 class="theme-color fs-5 text-lg-start">MOTORCYCLE SAFETY</h1>
-                    <h6 class="fw-light text-lg-start">To make motorcycling safer and more enjoyable by ensuring access
+                    <h1 class="theme-color fs-5">MOTORCYCLE SAFETY</h1>
+                    <h6 class="fw-light w-75 mx-auto">To make motorcycling safer and more enjoyable by ensuring access
                         to lifelong quality education
                         and training for current and prospective riders.</h6>
                 </div>
@@ -541,8 +541,8 @@
                 <!-- card 3 -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <img src="images/about/about-3.jpg" alt="" class="img-fluid about-img hover-img mb-4 rounded">
-                    <h1 class="theme-color fs-5 text-lg-start">OUR VISION</h1>
-                    <h6 class="fw-light text-lg-start">The Motorcycle Training is an internationally recognized
+                    <h1 class="theme-color fs-5">OUR VISION</h1>
+                    <h6 class="fw-light w-75 mx-auto">The Motorcycle Training is an internationally recognized
                         not-for-profit
                         foundation, supported by
                         motorcycle manufacturers.</h6>
@@ -560,7 +560,7 @@
     <footer class="bg-dark py-5">
         <section class="container text-white">
             <div class="row align-items-center">
-                <div class="col-12 col-md-9">
+                <div class="col-12 col-md-10">
                     <div class="d-flex fw-light">
                         <span class="me-4">Download Now</span>
                         <span class="me-4">License</span>
@@ -577,7 +577,7 @@
                         <small class="fw-lighter">&copy; 2021 bike. All rights reserved</small>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 footer-right d-lg-flex flex-column ">
+                <div class="col-12 col-md-2 footer-right d-lg-flex flex-column ">
                     <h5 class="mt-4 mt-md-0">Get The App</h5>
                     <img src="images/store-app.png" alt="" class="my-2 rounded border border-secondary">
                     <img src="images/store-play.png" alt="" class="rounded border border-secondary">
