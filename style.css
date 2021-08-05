@@ -58,9 +58,19 @@ header{
 .star-font{
     font-size: 11px;
 }
+.review-img{
+    transition: all 1s;
+}
+.review-card:hover .review-img{
+    transform: scale(1.1);
+}
 /* gears section  */
 .add-space{
     letter-spacing: 10px;
+}
+.product-name:hover{
+    color: rgb(0, 151, 197) !important;
+    cursor: pointer;
 }
 
 /* about section  */
